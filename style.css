@@ -1,0 +1,199 @@
+
+    :root {
+      --primary-color: #3498db;
+      --secondary-color: #2ecc71;
+      --dark-color: #2c3e50;
+      --light-color: #ecf0f1;
+      --danger-color: #e74c3c;
+      --warning-color: #f39c12;
+    }
+    
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    
+    .navbar-brand {
+      font-weight: 700;
+      color: var(--primary-color);
+    }
+    
+    .hero-section {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://cdn.pixabay.com/photo/2016/11/22/23/44/buildings-1851246_1280.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+    }
+    
+    .hero-section h1 {
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    
+    .contact-info {
+      background-color: white;
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    
+    .map-container {
+      height: 300px;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 30px;
+    }
+    
+    .vehicle-card {
+      border: none;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    
+    .vehicle-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+    
+    .vehicle-img {
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    .rent-btn {
+      background-color: var(--primary-color);
+      border: none;
+      padding: 8px 20px;
+      border-radius: 5px;
+      color: white;
+      font-weight: 500;
+      transition: background-color 0.3s ease;
+    }
+    
+    .rent-btn:hover {
+      background-color: #2980b9;
+    }
+    
+    .auth-container {
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 30px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    
+    .auth-container h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: var(--dark-color);
+    }
+    
+    .form-control {
+      border-radius: 5px;
+      padding: 12px;
+      margin-bottom: 15px;
+    }
+    
+    .auth-btn {
+      background-color: var(--primary-color);
+      border: none;
+      padding: 12px;
+      border-radius: 5px;
+      color: white;
+      font-weight: 500;
+      width: 100%;
+      margin-top: 10px;
+    }
+    
+    .auth-btn:hover {
+      background-color: #2980b9;
+    }
+    
+    .forgot-password {
+      text-align: right;
+      display: block;
+      margin-top: 10px;
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+    
+    .modal-content {
+      border-radius: 10px;
+      border: none;
+    }
+    
+    .modal-header {
+      background-color: var(--primary-color);
+      color: white;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    
+    .modal-footer {
+      border-top: none;
+    }
+    
+    .payment-method {
+      margin: 20px 0;
+    }
+    
+    .payment-method .form-check {
+      margin-bottom: 10px;
+    }
+    
+    .success-container {
+      text-align: center;
+      padding: 30px;
+    }
+    
+    .success-icon {
+      font-size: 80px;
+      color: var(--secondary-color);
+      margin-bottom: 20px;
+    }
+    
+    .reservation-summary {
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px 0;
+      text-align: left;
+    }
+    
+    .hide {
+      display: none;
+    }
+    
+    .user-welcome {
+      font-weight: 500;
+      margin-right: 10px;
+    }
+    
+    footer {
+      background-color: var(--dark-color);
+      color: white;
+      padding: 30px 0;
+      margin-top: 50px;
+    }
+    
+    @media (max-width: 768px) {
+      .hero-section {
+        padding: 50px 0;
+      }
+      
+      .contact-info {
+        margin-bottom: 20px;
+      }
+      
+      .vehicle-card {
+        margin-bottom: 20px;
+      }
+    }
